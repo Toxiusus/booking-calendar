@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="booking">
+        <h1 class="booking__title">Найдём номера под ваши пожелания</h1>
+        <div class="booking__box">
+          <p class="boooking__text">прибытие</p>
+          <input class="booking__input" type="text" placeholder="ДД.ММ.ГГГГ" id="start">
+          <p class="boooking__text">выезд</p>
+          <input class="booking__input" type="text" placeholder="ДД.ММ.ГГГГ" id="end">
+        </div>
+      </div>
+      <div class="wrapper">
+        <header>
+          <p class="current-date"></p>
+          <div class="icons">
+            <span id="prev" class="left"> </span>
+            <span id="next" class="right"> </span>
+          </div>
+        </header>
+        <div class="calendar">
+          <ul class="weeks">
+            <li>Пн</li>
+            <li>Вт</li>
+            <li>Ср</li>
+            <li>Чт</li>
+            <li>Пт</li>
+            <li>Сб</li>
+            <li>Вс</li>
+          </ul>
+          <ul class="days"></ul>
+          <div class="buttons">
+            <button class="btn__delete">очистить</button>
+            <button class="btn__submit">применить</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
